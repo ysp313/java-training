@@ -11,7 +11,7 @@ public class ObjectTraining {
 
     // TODO 2. Add a Constructor with name and age arguments (in this order)
     // This constructor must initialize name and age attributes
-    public Student(String name, int age){
+    public ObjectTraining(String name, int age){
         this.name = name;
         this.age = age;
         this.wilder = true;
@@ -46,7 +46,7 @@ public class ObjectTraining {
 
 
     // TODO 7. Add getter method for wilder attribute
-    public isWilder()
+    public boolean isWilder()
     {
         return this.wilder;
     }
@@ -63,7 +63,7 @@ public class ObjectTraining {
     // where you replace {name} and {age} with attributes values
     public String whoAmI() 
     {
-        return "my name is "+this.name+" and i'm "+this.age;
+        return "My name is "+this.name+" and I'm "+this.age;
     }
 
     // Do not remove this empty constructor !
